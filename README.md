@@ -25,14 +25,14 @@ Restore NuGet packages if necessary (usually automatic).
 
 Build and run the project (F5).
 
-Usage
+###Usage
 Click on any floor button to call the elevator.
 
 Watch the elevator move and doors animate.
 
 Floor indicator updates with direction arrows.
 
-Project Structure
+###Project Structure
 ElevatorManage.cs: Main form and UI event handlers.
 
 Motor.cs: Handles elevator movement logic and animations.
@@ -41,16 +41,16 @@ Door.cs: Manages door opening/closing animations.
 
 Resources/: Contains image assets (door, elevator, call button).
 
-Known Issues / TODO
+###Known Issues / TODO
 Smooth door animation can be improved.
 
 Add sound effects for elevator movement.
 
 Handle concurrent floor requests more efficiently.
 
-Contributing
+###Contributing
 Feel free to fork and submit pull requests. Please follow coding conventions and write clear commit messages.
 
-License
+###License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
