@@ -19,38 +19,38 @@ This project is a simple elevator simulator built using Windows Forms (.NET). It
 1. Clone the repository  
    ```bash
    git clone https://github.com/BadrEddineBakena/ElevatorSimulator.git
-Open the solution ElevatorSimulation.sln in Visual Studio.
+- Open the solution ElevatorSimulation.sln in Visual Studio.
 
-Restore NuGet packages if necessary (usually automatic).
+- Restore NuGet packages if necessary (usually automatic).
 
-Build and run the project (F5).
+- Build and run the project (F5).
 
-###Usage
-Click on any floor button to call the elevator.
+### Usage
+- Click on any floor button to call the elevator.
 
-Watch the elevator move and doors animate.
+- Watch the elevator move and doors animate.
 
-Floor indicator updates with direction arrows.
+- Floor indicator updates with direction arrows.
 
-###Project Structure
-ElevatorManage.cs: Main form and UI event handlers.
+### Project Structure
+- ElevatorManage.cs: Main form and UI event handlers.
 
-Motor.cs: Handles elevator movement logic and animations.
+- Motor.cs: Handles elevator movement logic and animations.
 
-Door.cs: Manages door opening/closing animations.
+- Door.cs: Manages door opening/closing animations.
 
-Resources/: Contains image assets (door, elevator, call button).
+- Resources/: Contains image assets (door, elevator, call button).
 
-###Known Issues / TODO
-Smooth door animation can be improved.
+### Known Issues / TODO
+- Smooth door animation can be improved.
 
-Add sound effects for elevator movement.
+- Add sound effects for elevator movement.
 
-Handle concurrent floor requests more efficiently.
+- Handle concurrent floor requests more efficiently.
 
-###Contributing
-Feel free to fork and submit pull requests. Please follow coding conventions and write clear commit messages.
+### Contributing
+- Feel free to fork and submit pull requests. Please follow coding conventions and write clear commit messages.
 
-###License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### License
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
